@@ -1,4 +1,4 @@
-# Processamento de imagens
+# Processamento de imagens: Máscara de Nitidez, Filtros de Suavização e Filtro Laplaciano
 <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" width="40" height="40"/> <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original-wordmark.svg" width="40" height="40"/>
           
 Neste estudo, exploraremos o processamento de imagens aplicando filtros de nitidez, suavização e laplaciano. Esses filtros desempenham papéis cruciais na melhoria da qualidade das imagens.
