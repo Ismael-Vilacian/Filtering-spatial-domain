@@ -5,9 +5,9 @@ Neste estudo, exploraremos o processamento de imagens aplicando filtros de nitid
 
 ## Funcionalidades
 
-- Implementação do Filtro de Máscara de Nitidez
-- Comparação de Filtros de Suavização
-- Realce de Bordas com o filtro laplaciano
+- Implementação do filtro de máscara de nitidez
+- Implementação de filtros de Suavização
+- Implementação do realce de bordas com o filtro laplaciano
 
 Os filtros de Máscara de Nitidez, Filtros de Suavização e Realce de Bordas com o Filtro Laplaciano desempenham papéis importantes no processamento de imagens. A Máscara de Nitidez é utilizada para acentuar detalhes, aumentando a clareza da imagem através da realce de suas bordas. Os Filtros de Suavização, por outro lado, reduzem o ruído e suavizam a imagem ao atenuar variações bruscas de intensidade, proporcionando um efeito de desfoque que torna a imagem mais uniforme. Já o Filtro Laplaciano é um filtro de realce de bordas que destaca mudanças rápidas de intensidade, facilitando a detecção de contornos e detalhes estruturais na imagem. Esses filtros são essenciais para aprimorar a qualidade visual das imagens, seja na remoção de ruídos, na melhoria da nitidez ou na detecção de bordas e padrões.
 
