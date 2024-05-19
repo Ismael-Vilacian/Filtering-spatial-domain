@@ -33,4 +33,4 @@ Após isso, basta executar o arquivo princial main.py.
 
 ## Resultados
 
-O código vai solicitar qual filtro deve ser aplicaso, sendo 1 para máscara de nitidez, 2 para suavização e 3 para realce de borda, em seguida ele vai pedir o nome da imagem a qual vai ter o filtro aplicado (a imagem deve estar na pasta images). Para o filtro de suavização em específico, o código dará três opções sendo 1 para usar média, 2 para mediana e 3 para gaussiano. após aplicado os filtros, as imagens vai ser salva nos pasta 'processed-image'.
+O código solicitará qual filtro deve ser aplicado: 1 para máscara de nitidez, 2 para suavização e 3 para realce de bordas. Em seguida, ele pedirá o nome da imagem a ser processada (a imagem deve estar na pasta "images"). Para o filtro de suavização, haverá três opções: 1 para média, 2 para mediana e 3 para gaussiano. Após a aplicação dos filtros, as imagens serão salvas na pasta "processed-image".
