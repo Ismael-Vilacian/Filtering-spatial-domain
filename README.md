@@ -31,13 +31,33 @@ pip3 install opencv-contrib-python
 ```
 Após isso, basta executar o arquivo princial main.py.
 
+## Funcionamento
+
+O código solicitará qual filtro deve ser aplicado: 
+|Função| Tipo do filtro |
+|------| -------------- |
+|   1  | Máscara de nitidez |
+|   2  | Suavização |
+|   3  | Realce de bordas |
+
+Em seguida, ele pedirá o nome da imagem a ser processada (a imagem deve estar na pasta "images"). Para o filtro de suavização, haverá três opções: 
+|Função| Tipo do filtro |
+|------| -------------- |
+|   1  | Suavização com média |
+|   2  | Suavização com mediana |
+|   3  | Suavização com gaussiano |
+
+Após a aplicação dos filtros, as imagens serão salvas na pasta "processed-image".
+
 ## Resultados
 
-O código solicitará qual filtro deve ser aplicado: 1 para máscara de nitidez, 2 para suavização e 3 para realce de bordas. Em seguida, ele pedirá o nome da imagem a ser processada (a imagem deve estar na pasta "images"). Para o filtro de suavização, haverá três opções: 1 para média, 2 para mediana e 3 para gaussiano. Após a aplicação dos filtros, as imagens serão salvas na pasta "processed-image".
+### Filtro de nitidez
 
 Aplicando filtro de nitidez, observamos um realce das cores, resultando em uma imagem com aparência mais viva e destacada.
 
 <img loading="lazy" src="https://imgur.com/1Aj0Iq1.png"/>
+
+### Filtro de suavização
 
 Ao aplicar o filtro de suavização, notamos que a imagem adquiriu um certo desfoque. Para perceber as diferenças entre os filtros de suavização média, mediana e gaussiana, é necessário dar um zoom nas bordas, onde as maiores diferenças são mais evidentes. 
 
@@ -52,6 +72,8 @@ Ao aplicar o filtro de suavização, notamos que a imagem adquiriu um certo desf
 >Usando a suavização gaussiana, observamos que as bordas da imagem ficaram mais suaves. No entanto, diferente do filtro de média, as bordas mantiveram uma melhor visibilidade.
 
 <img loading="lazy" src="https://imgur.com/W7HSYjH.png"/>
+
+### Filtro laplaciano
 
 Ao aplicar o filtro laplaciano, percebemos que apenas as bordas se destacam, fazendo com que o restante da imagem fique escuro.
 
